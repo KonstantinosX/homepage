@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+permalink: /
+title: Konstantinos Xirogiannopoulos
 feature-img:
 ---
-
 
 Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
