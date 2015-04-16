@@ -1,4 +1,5 @@
 <header class="site-header">
+	{% if page.title != "Konstantinos Xirogiannopoulos" %}
 	<div class="branding">
 		{% if site.theme.gravatar %}
 		<a href="{{ site.baseurl }}/">
@@ -13,6 +14,7 @@
 			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>
 	</div>
+	{% endif %}
 	<nav class="site-nav">
 		<ul>
 			{% for page in site.pages %}
