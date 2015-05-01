@@ -5,7 +5,7 @@
     <atom:link href="http://cs.umd.edu/~kostasx//feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://cs.umd.edu/~kostasx//</link>
     <description>Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems</description>
-    <pubDate>Fri, 01 May 2015 12:33:02 -0400</pubDate>
+    <pubDate>Fri, 01 May 2015 12:47:26 -0400</pubDate>
     
       <item>
         <title>Sample post</title>
@@ -78,7 +78,7 @@
 
 &lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -88,14 +88,13 @@
 &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
 
 &lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt; f(x) = \int \frac{2x^2+4x+6}{x-2} &lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
 </description>
         <pubDate>Fri, 28 Nov 2014 00:00:00 -0500</pubDate>
       </item>
