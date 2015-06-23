@@ -1,5 +1,5 @@
 <header class="site-header">
-	{% if page.title != "Konstantinos Xirogiannopoulos" %}
+	{% if page.home != "Konstantinos Xirogiannopoulos" %}
 	<div class="branding">
 		{% if site.theme.gravatar %}
 		<a href="{{ site.baseurl }}/">
@@ -18,7 +18,7 @@
 	<nav class="site-nav">
 		<ul>
 			{% for page in site.pages %}
-			{% if page.title != "Konstantinos Xirogiannopoulos" and page.title and page.hide != true %}
+			{% if page.home != "Konstantinos Xirogiannopoulos" and page.title and page.hide != true %}
 			<li>
 				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
 					{{ page.title }}

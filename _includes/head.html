@@ -7,6 +7,9 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	{% if page.home %}
+	<link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
+	{% endif %}
 
 	<!--Favicon-->
 	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">

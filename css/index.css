@@ -1,0 +1,33 @@
+div#main-title img {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 263px;
+  height: 263px;
+  padding: 8px;
+}
+
+div#main-title h1{
+  padding-left: 73px;
+  margin-top: 5px;
+    margin-bottom: -14px;
+}
+
+#main-title {
+  position: static;
+  /*background-color: rgb(229, 229, 229);*/
+  /*border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 12px;*/
+  margin-top: -38px;
+  width: 844px;
+  height: 348px;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
