@@ -26,6 +26,19 @@ div#main-title h1{
   height: 348px;
 }
 
+.pubentry {
+  display: block;
+  overflow: hidden;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.pubtext {
+  height: 64px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
