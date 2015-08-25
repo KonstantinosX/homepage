@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KX</title>
+    <title>Konstantinos Xirogiannopoulos</title>
     <atom:link href="http://www.cs.umd.edu/~kostasx/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://www.cs.umd.edu/~kostasx/</link>
     <description>Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems</description>
-    <pubDate>Tue, 25 Aug 2015 13:04:50 -0400</pubDate>
+    <pubDate>Tue, 25 Aug 2015 17:44:04 -0400</pubDate>
     
       <item>
         <title>Sample post</title>
