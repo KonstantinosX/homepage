@@ -39,6 +39,12 @@ div#main-title h1{
   vertical-align: middle;
 }
 
+#email{
+  position: absolute;
+  bottom: 3px;
+  margin-left: 10px;
+}
+
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
