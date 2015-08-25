@@ -6,7 +6,7 @@ url: "http://www.cs.umd.edu" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: KX
+  title: Konstantinos Xirogiannopoulos
   avatar: me.jpg
   gravatar: # Email MD5 hash
   description: "Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems" # used by search engines
