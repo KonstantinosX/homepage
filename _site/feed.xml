@@ -5,7 +5,7 @@
     <atom:link href="http://www.cs.umd.edu/~kostasx/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://www.cs.umd.edu/~kostasx/</link>
     <description>Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems</description>
-    <pubDate>Tue, 25 Aug 2015 18:29:31 -0400</pubDate>
+    <pubDate>Wed, 02 Sep 2015 22:07:07 -1000</pubDate>
     
       <item>
         <title>Sample post</title>
@@ -33,7 +33,7 @@
 
 &lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -1000</pubDate>
       </item>
     
       <item>
@@ -42,7 +42,7 @@
         <guid isPermaLink="true">http://www.cs.umd.edu/~kostasx/2014/11/29/feature-images.html</guid>
         <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 -1000</pubDate>
       </item>
     
       <item>
@@ -96,7 +96,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
 </description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -1000</pubDate>
       </item>
     
   </channel>
