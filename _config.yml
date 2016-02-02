@@ -12,8 +12,7 @@ theme:
   description: "Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Exploring Database Systems</p>
+  header_text: Large-Scale, Highly Available Big Data at Low Latency...Now What?
 
   header_text_feature_image:
   footer_text: >

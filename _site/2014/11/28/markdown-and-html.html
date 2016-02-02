@@ -66,6 +66,14 @@
 			
 			
 			
+			<li>
+				<a class="page-link" href="/~kostasx/blog/">
+					Blog
+				</a>
+			</li>
+			
+			
+			
 			
 			
 			
@@ -140,11 +148,12 @@
 
     <div class="content">
       <article >
-  
-    
+  <header style="background-image: url('/~kostasx/')">
     <h1 class="title">Markdown and HTML</h1>
+    <p class="meta">
+    November 28, 2014
     
-    
+    </p>
   </header>
   <section class="post-content"><p>Jeykll supports the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.</p>
 
@@ -175,7 +184,7 @@
 
 <p>Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.</p>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to ten</span>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to ten</span>
 <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
 <span class="p">}</span>
@@ -185,7 +194,7 @@
 <span class="k">while</span> <span class="p">(</span><span class="nx">j</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">j</span><span class="o">++</span><span class="p">;</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">j</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p>Type Theme uses KaTeX to display maths. Equations such as <script type="math/tex">S_n = a \times \frac{1-r^n}{1-r}</script> can be displayed inline.</p>
 

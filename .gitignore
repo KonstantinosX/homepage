@@ -1,2 +1,9 @@
 #_site
 .sass-cache
+_posts
+.DS_Store
+_site/blog
+_site/2014
+_site/2015
+_site/img/backgrounds
+img/backgrounds
