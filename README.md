@@ -5,8 +5,9 @@
 A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
 
 ## Get Started
+bloha
 
-[Demo](https://rohanchandra.github.io/type-theme/)
+[Demo](https://rohanchandra.github.io/type-theme/) blah blae
 This is change number 1
 
 [Using Type](https://rohanchandra.github.io/project/type/)
