@@ -7,6 +7,7 @@ A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and 
 ## Get Started
 
 [Demo](https://rohanchandra.github.io/type-theme/)
+This is change number 1
 
 [Using Type](https://rohanchandra.github.io/project/type/)
 
