@@ -5,6 +5,7 @@
     <atom:link href="http://www.cs.umd.edu/~kostasx/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://www.cs.umd.edu/~kostasx/</link>
     <description>Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems</description>
+<<<<<<< HEAD
     <pubDate>Mon, 14 Nov 2016 18:26:47 -0500</pubDate>
     
       <item>
@@ -223,6 +224,9 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 </description>
         <pubDate>Mon, 14 Sep 2015 00:00:00 -0400</pubDate>
       </item>
+=======
+    <pubDate>Thu, 14 Jul 2016 20:29:51 -0700</pubDate>
+>>>>>>> d3784e509e421d8e19f8f80465ccfd03ad8de853
     
       <item>
         <title>Sample post</title>
@@ -250,16 +254,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 
 &lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>Ds Imasges</title>
-        <link>http://www.cs.umd.edu/~kostasx/2014/11/29/ds-imasges.html</link>
-        <guid isPermaLink="true">http://www.cs.umd.edu/~kostasx/2014/11/29/ds-imasges.html</guid>
-        <description>&lt;p&gt;dfsdfsdfads&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
       <item>
@@ -313,7 +308,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
 </description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
   </channel>
