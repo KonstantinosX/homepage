@@ -5,7 +5,7 @@
     <atom:link href="http://www.cs.umd.edu/~kostasx/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://www.cs.umd.edu/~kostasx/</link>
     <description>Blog by graduate phd student at the University of Maryland, College Park, discussing research mostly revolving around Database Systems</description>
-    <pubDate>Fri, 19 May 2017 20:05:40 -0500</pubDate>
+    <pubDate>Sat, 22 Feb 2020 17:56:14 -0800</pubDate>
     
       <item>
         <title>How much Data Independence?</title>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;After a bit of thorough research on this, it turns out that this exact topic is what Michael Stonebraker’s first paper  was about.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 30 Nov 2015 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 30 Nov 2015 00:00:00 -0800</pubDate>
       </item>
     
       <item>
@@ -42,7 +42,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 &lt;h2 id=&quot;using-graphgen-with-python&quot;&gt;Using GraphGen with Python&lt;/h2&gt;
 &lt;p&gt;The easiest way to try out GraphGen is probably in Python through &lt;code&gt;graphgenpy&lt;/code&gt;; a Python wrapper library for executing graph extraction queries in our custom DSL which is based on Datalog. The graphs that result from the extraction query are serialized to disk in a standard format and can then be &lt;em&gt;loaded&lt;/em&gt; into other graph libraries like &lt;a href=&quot;https://networkx.github.io/&quot;&gt;&lt;code&gt;NetworkX&lt;/code&gt;&lt;/a&gt; for further analysis.&lt;/p&gt;
 
-&lt;h3 id=&quot;installing-graphgenpy&quot;&gt;Installing graphgenpy&lt;/h3&gt;
+&lt;p&gt;###Installing graphgenpy&lt;/p&gt;
 
 &lt;p&gt;To install graphgenpy onto your system, simply download the graphgen-pkg, and run:
 &lt;code&gt;python setup.py install&lt;/code&gt;&lt;/p&gt;
@@ -70,7 +70,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 &lt;span class=&quot;n&quot;&gt;nx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pagerank&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;G&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Done!&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;sounds-great-but-how-do-i-write-queries&quot;&gt;Sounds great, but how do I write queries??&lt;/h2&gt;
+&lt;p&gt;##Sounds great, but how do I write queries??&lt;/p&gt;
 
 &lt;p&gt;We have defined a declarative language based on &lt;em&gt;Datalog&lt;/em&gt; through which users are able to express graph extraction queries by expressing how the nodes and the edges should be projected from the database.&lt;/p&gt;
 
@@ -184,7 +184,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;voteToHalt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;example-of-pagerank-calculation-using-graphgen-30-iterations&quot;&gt;Example of &lt;em&gt;PageRank&lt;/em&gt; Calculation using GraphGen (30 iterations)&lt;/h3&gt;
+&lt;p&gt;###Example of &lt;em&gt;PageRank&lt;/em&gt; Calculation using GraphGen (30 iterations)&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Initialize vertec-centric object&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;VertexCentric&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;VertexCentric&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
@@ -221,7 +221,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pagerank&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
-        <pubDate>Mon, 14 Sep 2015 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 14 Sep 2015 00:00:00 -0700</pubDate>
       </item>
     
       <item>
@@ -250,7 +250,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 
 &lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
       <item>
@@ -259,7 +259,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
         <guid isPermaLink="true">http://www.cs.umd.edu/~kostasx/2014/11/29/ds-imasges.html</guid>
         <description>&lt;p&gt;dfsdfsdfads&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 -0600</pubDate>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
       <item>
@@ -313,7 +313,7 @@ towards enabling graph analytics on top of relational datasets. GraphGen allows 
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
 </description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 -0600</pubDate>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
   </channel>
